@@ -1,0 +1,57 @@
+<world name="center_out_world">
+  <include>
+    <uri>model://ground_plane</uri>
+  </include>
+  <include>
+    <uri>model://sun</uri>
+  </include>
+    <!-- Add spheres -->
+  <include>
+    <uri>model://objective_sphere</uri>
+    <pose>0 0 0.05 0 0 0</pose>
+    <name>start_sphere</name>
+    <link>
+      <visual>
+        <material>
+          <ambient>0 1 0 1</ambient> <!-- Green -->
+        </material>
+      </visual>
+    </link>
+  </include>
+  <include>
+    <uri>model://objective_sphere</uri>
+    <pose>1 0 0.05 0 0 0</pose>
+    <name>second_sphere</name>
+    <link>
+      <visual>
+        <material>
+          <ambient>1 1 0 1</ambient> <!-- Yellow -->
+        </material>
+      </visual>
+    </link>
+  </include>
+  <include>
+    <uri>model://objective_sphere</uri>
+    <pose>0 1 0.05 0 0 0</pose>
+    <name>third_sphere</name>
+    <link>
+      <visual>
+        <material>
+          <ambient>1 0.65 0 1</ambient> <!-- Orange -->
+        </material>
+      </visual>
+    </link>
+  </include>
+  <include>
+    <uri>model://objective_sphere</uri>
+    <pose>-1 0 0.05 0 0 0</pose>
+    <name>final_sphere</name>
+    <link>
+      <visual>
+        <material>
+          <ambient>1 0 0 1</ambient> <!-- Red -->
+        </material>
+      </visual>
+    </link>
+  </include>
+</world>

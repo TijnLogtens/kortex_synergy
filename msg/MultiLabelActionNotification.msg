@@ -1,0 +1,9 @@
+uint8[] pose_array
+
+uint32 action_event
+kortex_driver/ActionHandle handle
+kortex_driver/Timestamp timestamp
+kortex_driver/UserProfileHandle user_handle
+uint32 abort_details
+kortex_driver/Connection connection
+kortex_driver/TrajectoryInfo[] trajectory_info
